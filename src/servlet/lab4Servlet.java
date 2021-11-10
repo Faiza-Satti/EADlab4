@@ -16,6 +16,8 @@ public class lab4Servlet extends HttpServlet {
         out.println("Data Inserted Successfully");
         String username = request.getParameter("username");
         out.println(username);
+        out.println("Data Inserted Successfully");
+
 
     }
 
